@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+PyYAML
+sqlite3      # builtin, no install needed
+gspread
+oauth2client
+streamlit
+APScheduler
+python-telegram-bot

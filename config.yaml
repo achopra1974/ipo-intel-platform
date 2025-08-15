@@ -1,0 +1,28 @@
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  username: "youremail@gmail.com"
+  password: "your_app_password"
+  recipients:
+    - "alert1@domain.com"
+    - "alert2@domain.com"
+
+telegram:
+  bot_token: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+  chat_id: "-1001234567890"
+
+google_sheets:
+  creds_file: "creds.json"
+  sheet_key: "1abcDEFghiJKLmnopQrSTUvwxYZ0123456789"
+
+nse_api:
+  listing_endpoint: "https://www.nseindia.com/api/ipo-listing"
+  headers:
+    User-Agent: "Mozilla/5.0"
+
+scraper:
+  sources:
+    - url: "https://www.sebi.gov.in/reports/ipo_active.html"
+      type: "html"
+    - url: "https://www.chittorgarh.com/report/ipo-dashboard/82/"
+      type: "html"
