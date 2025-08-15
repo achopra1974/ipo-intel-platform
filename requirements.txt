@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+PyYAML
+gspread
+oauth2client
+streamlit
+APScheduler
+python-telegram-bot
+pandas
